@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ <style>
+ #logo{
+ 	float:left;
+ 	margin:50px 0 0px 900px;
+ 
+
+ }
+ body{
+ 	background-color:black;
+ 	color:#BBBBBB;
+ 	text-align:center;
+ 	font-size:14px;
+ 	
+ }
+ h3{
+ 	color:white;
+ 	text-align:center;
+ 	font-size:20px;
+
+ }=
+
+table.td{
+	border:1px solid white;
+}
+table{
+	width:50%;
+	height:500px;
+	margin:auto;
+	text-align:left;
+}
+
+</style>
+<div id='logo'>
+	<img src="img/logo.png" width="200" height=160>
+</div>
+  <title>회원 가입</title>
+ </head>
+ <body>
+ 	<br><br>
+ 	<h3>　</h3>
+ 	<br><br>
+ 	<br><br><br><br>
+ <form>
+  <div id=right>
+   <table border=1 width="800" style="padding:700px 0 5px 700; ">
+      
+      <tr>
+         <th> 닉네임</th>
+         <td><input type="text"></td>
+      </tr>
+       <tr>
+         <th>아이디</th>
+         <td>
+         <input type="text">
+    
+       </tr>
+       <tr>
+         <th>비밀번호</th>
+         <td><input type="password"></td>
+       </tr>
+       <tr>
+         <th>비밀번호 확인</th>
+         <td><input type="password" name="mbpw_re"></td>
+       </tr>
+       <tr>
+          <th>비밀번호 힌트/답변</th>
+          <td><select name='pwhint' size='1' class='select'>
+          <option value=''>　　선택하세요</option>
+          <option value='30'>내가 어릴 때 살던 동네는?</option>
+          <option value='31'>친한친구의 이름은?(친구없는사람 불가)</option>
+
+        
+        </select>
+        </tr>
+        <tr>
+        </td>
+           <th>답변</th>
+           <td><input type='text' name='pwhintans'></td>
+        </tr>
+        <tr>
+          <th>이메일</th>
+          <td>
+            <input type='text' name="email">@
+            <input type='text' name="email_dns">
+              <select name="emailaddr">
+                 <option value="">직접입력</option>
+                 <option value="daum.net">daum.net</option>
+                 <option value="empal.com">empal.com</option>
+                 <option value="gmail.com">gmail.com</option>
+                 <option value="hanmail.net">hanmail.net</option>
+                 <option value="msn.com">msn.com</option>
+                 <option value="naver.com">naver.com</option>
+                 <option value="nate.com">nate.com</option>
+              </select>
+            </td>
+         </tr>
+         <tr>
+         <th>전화번호</th>
+           <td><input type="text"name="cel1"> -
+               <input type="text" name="cel2_1" title="전화번호"> -
+               <input type="text" name="cel2_2">
+            </td>
+        </tr>
+       <tr>
+         <th>이메일로 정보를 받으시겠습니까?</th>
+           <td class="s">
+               <input type="radio"> 수신
+               <input type="radio"> 수신거부
+            </td>
+         </tr>
+   
+           
+           </table>
+          
+          </form>
+        </div>
+         <div id='maingo'>
+   <a href='index.html' target='_blank'style="text-decoration:none"><img src='img/maingo.png'></a>
+</div>
+ </body>
+</html>
+
+
+
+			
+
+
